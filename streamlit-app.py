@@ -2,8 +2,8 @@ import os, requests
 import streamlit as st
 
 # Use the name of the container as the default URL.
-# BASE_URL = os.getenv("BACK_END_URL", "http://fastapi-backend:8000")
-BASE_URL = os.getenv("BACK_END_URL", "http://localhost:8000")
+BASE_URL = os.getenv("BACK_END_URL", "https://fastapi-app-947969291239.asia-northeast3.run.app")
+# BASE_URL = os.getenv("BACK_END_URL", "http://localhost:8000")
 
 st.title("🎥 Movie Review Sentiment Explorer")
 
